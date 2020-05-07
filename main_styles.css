@@ -1,0 +1,132 @@
+/* http://meyerweb.com/eric/tools/css/reset/v2.0 | 20110126License: none (public domain)*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+	box-sizing: border-box;
+}
+
+.swiper-container {
+		width: 800px;
+    height: 800px;
+    border: 22px solid chartreuse;
+}
+p {
+  color: blue;
+}
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    filter: saturate(1.2)contrast(1.1)brightness(1.4);
+}
+/* - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* BREAK POINTS */
+@media (min-width: 319px) {
+	video {
+    right: -160%;
+    bottom: 0%;
+  }
+	.touch-me-png {
+		display: block;
+    position: relative;
+    width: 359px;
+    height: 321px;
+    margin: 2vh auto;
+    max-width: 470px;
+    filter: drop-shadow(0px 0px 4px white);
+	}
+	.touch_me-png:hover {
+		color: black;
+	}
+}
+
+@media (min-width: 319px) {
+		.touch-me-png {
+			margin: 25vh auto;
+		}
+}
+@media (min-width: 400px) {
+	video {
+    right: -100%;
+  }
+	.touch-me-png {
+		margin: 25vh auto;
+	}
+}
+
+@media (min-width: 500px) {
+	video {
+    right: -70%;
+
+  }
+}
+
+@media (min-width: 600px) {
+	video {
+    right: -50%;
+
+  }
+}
+
+@media (min-width: 700px) {
+	video {
+    right: -30%;
+
+  }
+}
+
+@media (min-width: 900px) {
+	video {
+    right: -20%;
+
+  }
+}
+
+@media (min-width: 1000px) {
+	video {
+    right: 0%;
+
+  }
+}
+
+/*
+@media (min-width: - -px) {}
+
+@media (min-width: - -px) {}
+
+@media (min-width: - -px) {}
+
+@media (min-width: - -px) {}
+
+@media (min-width: - -px) {}
+*/
